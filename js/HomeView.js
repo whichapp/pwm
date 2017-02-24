@@ -22,16 +22,6 @@ var HomeView = function(store) {
  
 }
 
-var EmployeeView = function(employee) {
- 
-    this.initialize = function() {
-        this.el = $('<div/>');
-    };
- 
-    this.initialize();
- 
- }
  
 HomeView.template = Handlebars.compile($("#home-tpl").html());
 HomeView.liTemplate = Handlebars.compile($("#employee-li-tpl").html());
-EmployeeView.template = Handlebars.compile($("#employee-tpl").html());
